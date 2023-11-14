@@ -9,23 +9,23 @@ import {HiMenuAlt1, HiX} from "react-icons/hi"
       submenus: [
         {
           key: 1,
-          heading: "Product 1",
+          heading: "Service 1",
           description: "Discover the Transformative Potential of Artificial Intelligence: Empower Your Business with Smart Solutions and Stay Ahead of the Competition",
 
         },
         {
           key: 2,
-          heading: "Product 2",
-          description: "Description of Product 2",
+          heading: "Service 2",
+          description: "Description of Service 2",
           
-          heading2: "Product 2",
-          description2: "Description of Product 2",
+          heading2: "Service 2",
+          description2: "Description of Service 2",
 
-           heading3: "Product 3",
-          description3: "Description of Product 2",
+           heading3: "Service 3",
+          description3: "Description of Service 2",
 
-           heading4: "Product 4",
-          description4: "Description of Product 2",
+           heading4: "Service 4",
+          description4: "Description of Service 2",
           
 
         },
@@ -58,7 +58,7 @@ import {HiMenuAlt1, HiX} from "react-icons/hi"
     },
         {
       key: 6,
-      href: "#",
+      href: "about",
       name: "About",
       hid:"max-md:hidden",
           submenus: [
@@ -70,8 +70,8 @@ import {HiMenuAlt1, HiX} from "react-icons/hi"
 const MegaMenu = () => {
   return (
    
-      <nav >
-        <div className="flexBetween bg-white fixed top-0 left-0 z-20 px-6 sm:px-20 w-full py-2">
+      <nav className="bg-white fixed w-full top-0 left-0 z-20" >
+        <div className="container  mx-auto flex items-center justify-between  px-5 sm:px-10  ">
           <Link  href="/">
         <Image src="/Logo-Beauroi.png"  height={60} width={110} alt="Logo-Beauroi"/>
       </Link>
@@ -86,7 +86,7 @@ const MegaMenu = () => {
                   <div className="p-6 mega-menu mb-16 sm:mb-0 shadow-xl   bg-gradient-to-tl from-indigo-900 via-gray-700 to-blue-900 border-gray">
                     <div className="container mx-auto w-full flex flex-wrap mx-2">
                       {nav.submenus.map((submenu) => (
-                        <ul key={submenu.key} className="px-4 w-full sm:w-1/2 lg:w-1/3 sm:border-r lg:border-b-0 pb-6 pt-6 lg:pt-3">
+                        <ul key={submenu.key} className="px-4 w-full sm:w-1/2 lg:w-1/3  pb-6 pt-6 lg:pt-3">
                           <div className="flex items-center">
                             <h3 className="font-bold text-xl text-white text-bold mb-2">{submenu.heading}</h3>
                           </div>
@@ -117,7 +117,9 @@ const MegaMenu = () => {
           </ul>
       </div>
      <div className="flex">
-    <button className="py-2  max-sm:text-xs px-4 ml-8 font-bold text-sm border border-solid hover:bg-blue-400 rounded-md transition duration-300 bg-gradient-to-tr from-sky-100 via-cyan-300 to-red-200 border-gray">Sign Up</button>
+                    <button className="px-3 py-2 text-sm text-white border border-solid hover:bg-blue-400 rounded-md transition duration-300 bg-indigo-700 border-gray">
+                  Sign Up
+                </button>
     <HiMenuAlt1 className="mr-8 ml-8 text-3xl md:hidden cursor-pointer" />
   </div> 
         </div>

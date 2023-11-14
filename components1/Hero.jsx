@@ -1,19 +1,19 @@
 
 
 const Hero = () => {
-	return (
-
-      <div className=" bg-gradient-to-br text-gray-800 from-indigo-200 via-gray-100 to-indigo-700 ">
+  return (
+      <section className="container mx-auto">
+      <div className=" ">
    
    
-      <div className=" bg-white sm:px-32  sm:py-32 w-[100%] ">
+      <div className=" bg-white sm:px-8  sm:py-32 w-[100%] ">
 
          <div className="md:flex items-center  justify-between">
-          <div className=" ">
-                      <div className="  text-blue-500  font-bold ">
-                  Know More
+          <div className="mt-6 ">
+                                <div className=" sm:text-[1.6rem] text-blue-500  font-bold ">
+                   we specialize in
                 </div>
-            <div className="sm:text-[3.5rem] mt-16 text-gray-900 max-sm:pt-20 text-[1.8rem] max-sm font-extrabold">
+            <div className="sm:text-[3.05rem]  text-gray-900 max-sm:pt-20 text-[1.8rem] max-sm font-extrabold">
               Artificial Intelligence <br />
               Digitally Transform<br /> Your Business
             </div>
@@ -33,14 +33,15 @@ const Hero = () => {
           </div>
           <div
          
-            className="md:w-[40%] pl-4 flex"
+            className="md:w-[50%] pl-4 flex"
           >
-            <img src="/hero1.png" className="justify-center items-center" />
+            <img src="/2r.png" className="rounded-3xl justify-center items-center" />
           </div>
         </div>
       </div>
         </div>
-	)
+    </section>
+  )
 }
 
 export default Hero

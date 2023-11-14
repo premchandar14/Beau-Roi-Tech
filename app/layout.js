@@ -1,12 +1,6 @@
 
 import './globals.css'
 import Navbar from '@/components/Navbar';
-import Hero from '@/components/Hero';
-import BottomHero from '@/components/BottomHero';
-import Vision from '@/components/Vision';
-import Goals from '@/components/Goals';
-import About from '@/components/About';
-
 
 import Footer from '@/components/Footer';
 import MegaMenu from '@/components/MegaMenu';
@@ -25,14 +19,9 @@ export default function RootLayout({ children }) {
       
       <body > 
         {/* <Navbar/> */}
+
         <MegaMenu/>
-        <Hero/>
-        <BottomHero/>
-        <About/>
-        <main ClassName="relative orverflow-hidden"> </main>
-        <Goals />
-        <Vision />
-        {children}
+            <main ClassName="relative orverflow-hidden">{children} </main>
         <Footer />
       </body>
     </html>

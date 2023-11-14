@@ -41,7 +41,7 @@ const About = () => {
       <div className='flex-1 flex justify-center items-center'>
         <img
           className="rounded-3xl"
-          src="/sit.jpg"
+          src="/ediit.png"
           alt='detail'
           width={570}
           height={522}
