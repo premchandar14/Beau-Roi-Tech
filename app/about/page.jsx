@@ -1,34 +1,52 @@
 import Hero from '@/components1/Hero';
 import Features from '@/components1/Features';
 import Clients2 from '@/components1/Clients2';
-import Details from '@/components1/Details';
+import Details1 from '@/components1/Details';
 import BigPic from '@/components1/BigPic';
 import CTA from '@/components1/CTA';
-import BigImageDetails from '@/components1/BigImageDetails';
-import Testimonials from '@/components1/Testimonials';
+import Newsletter from '@/components/Newsletter';
+import BigImageDetails from '@/components/BigImageDetails';
+import Abt from '@/components/Abt';
+import Details from '@/components/Details';
 import Blog from '@/components1/Blog';
 import Blg from '@/components1/Blg';
-
+import Map from '@/components/Map';
 import Image from 'next/image'
 
 export default function Home() {
   return (
           <>
-            <Hero/>
-            <Features/>
-            <Clients2/>
-            <Details dcolor={"text-gray-900"}  dbg={"bg-gray-100"} dsrc={"/fref2.png"} dtxt={" "}/>
+            <div className=' overflow-hidden   bg-gradient-to-tl from-purple-900 to-blue-900 h-[220px] sm:h-[570px] w-full relative'>
+              <div className='py-14 bg-gray-100 opacity-50'>
 
-            <Details dbg={"bg-gray-100"} dfl={" flex-row-reverse "} dsrc={"/fref2.png"} dcolor={"text-gray-900"} dtxt={" hello undefined Empower business to leverage multi-cloud. "}/>
-            <Details dcolor={"text-gray-900"}  dbg={"bg-gray-100"} dsrc={"/fref2.png"} dtxt={" "}/>
-            <Details dcolor={"text-gray-100"}  dbg={"py-40  bg-gradient-to-tl from-gray-600 via-lime-900 to-sky-900"} dsrc={"/fref2.png"} dtxt={" hello "}/>
-            <BigImageDetails dsrc={"/3r.png"}/>
-  
-            <BigPic/>
-            <Testimonials/>
-         
-            <Blg dcolor={"text-gray-900"} dfl={" flex-row-reverse "} dbg={"py-10 m-10 bg-white"} dsrc={"/4r.png"} dtxt={" hello "} />
-            <CTA color={"  bg-gray-50 p-20"} hei={" "}/>
+              </div>
+              <div>
+                <img src="3r.png" className='w-full h-full object-cover absolute mix-blend-overlay'/>
+                <div className="flex justify-center max-sm:px-0 py-20 sm:py-64">
+                  <h1 className="text-white max-sm:text-3xl text-7xl font-semibold">
+                    About Us
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <Details1 dcolor={"text-gray-900"} dfl={"flex-row-reverse"} dbg={" py-20"}
+             dsrc={"https://images.pexels.com/photos/7688455/pexels-photo-7688455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}  
+             dtxt={"Our Vision"}
+            dtxtpara={"Empower business to leverage the full potential of multi-cloud environments. We believe that no two organisations are alike, and therefore, their cloud strategies should be just as unique."}
+             />
+            <Details1 dcolor={"text-gray-900"}  dbg={" py-10 pb-20"}  
+            dsrc={"https://images.pexels.com/photos/3184436/pexels-photo-3184436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}  
+            dtxt={"Our Mission"}
+            dtxtpara={"To be your guiding light, simplify the complexities of multi cloud environments and empower your organisation to harness their full potential."}/>
+
+            <Abt/> 
+            <BigImageDetails/>
+            <Newsletter/>
+           
+ 
+            <Map />
+
+
           </>
   )
 }

@@ -3,8 +3,25 @@ import Image from "next/image";
 import {HiMenuAlt1, HiX} from "react-icons/hi"
 
  const NAV = [
+      {
+      key: 55,
+      href: "/",
+      name: "Home",
+      submenus: [
+
+      ],
+    },
+            {
+      key: 6,
+      href: "/about",
+      name: "About",
+      hid:"max-md:hidden",
+          submenus: [
+     
+        ]
+    },
      {  key: 4,
-      href: "#",
+      href: "/services",
       name: "Services",
       submenus: [
         {
@@ -31,55 +48,42 @@ import {HiMenuAlt1, HiX} from "react-icons/hi"
         },
       ],
     },
-    {
-      key: 5,
-      href: "#",
-      name: "Contact",
+          {
+      key: 7,
+      href: "/use-cases",
+      name: "Use Cases",
       submenus: [
-        {
-          key: 3,
-          heading: "Contact 1",
-          description: "Description of Contact 1",
-          subsubmenus: [
-            { key: 5, brief: "Brief 5", link: "#" },
-            { key: 6, brief: "Brief 6", link: "#" },
-          ],
-        },
-        {
-          key: 4,
-          heading: "Contact 2",
-          description: "Description of Contact 2",
-          subsubmenus: [
-            { key: 7, brief: "Brief 7", link: "#" },
-            { key: 8, brief: "Brief 8", link: "#" },
-          ],
-        },
+
       ],
     },
-        {
-      key: 6,
-      href: "about",
-      name: "About",
-      hid:"max-md:hidden",
-          submenus: [
-     
-        ]
-    }
+    {
+      key: 5,
+      href: "/contact",
+      name: "Contact",
+      submenus: [
+
+      ],
+    },
+
+
   ];
 
 const MegaMenu = () => {
   return (
-   
-      <nav className="bg-white fixed w-full top-0 left-0 z-20" >
-        <div className="container  mx-auto flex items-center justify-between  px-5 sm:px-10  ">
+   <div>
+      <div className="max-sm:pt-4 sm:hidden navtop" >
+
+      </div>
+        <div className="max-sm:hidden bg-white orverflow-hidden fixed w-full top-0 left-0 z-20">
+        <div className="container   mx-auto flex items-center justify-between  px-5 sm:px-10  ">
           <Link  href="/">
-        <Image src="/Logo-Beauroi.png"  height={60} width={110} alt="Logo-Beauroi"/>
+        <Image src="/Logo-Beauroi.png"  height={80} width={140} alt="Logo-Beauroi"/>
       </Link>
       <div className="flex  items-center justify-center ">
           <ul className="flex">
             {NAV.map((nav) => (
               <li key={nav.key} className="hoverable   hover:underline">
-                <a href={nav.href} className={nav.hid+"  relative block py-6 px-4 lg:p-6 text-sm lg:text-base font-bold hover:font-extrabold hover:underline"}>
+                <a href={nav.href} className={nav.hid+ " text-gray-700  relative block py-6 px-4 lg:p-6 text-sm lg:text-base font-bold hover:font-extrabold hover:underline"}>
                   {nav.name}
                 </a>
                 {nav.submenus.length > 0 && (
@@ -117,13 +121,51 @@ const MegaMenu = () => {
           </ul>
       </div>
      <div className="flex">
-                    <button className="px-3 py-2 text-sm text-white border border-solid hover:bg-blue-400 rounded-md transition duration-300 bg-indigo-700 border-gray">
+                    <button className="px-3 py-2 text-sm text-white border border-solid hover:bg-blue-600 rounded-md transition duration-300 bg-blue-600 border-gray">
                   Sign Up
                 </button>
-    <HiMenuAlt1 className="mr-8 ml-8 text-3xl md:hidden cursor-pointer" />
+    {/* <HiMenuAlt1 className={"  relative block py-6 px-4 lg:p-6 text-sm lg:text-base font-bold hover:font-extrabold hover:underline mr-8 ml-8 text-3xl md:hidden cursor-pointer" }/> */}
   </div> 
         </div>
-      </nav>
+        </div>
+        <div className="nav  sm:hidden">
+  <input type="checkbox" id="nav-check" />
+  <div className="nav-header mt-4">
+          <Link  href="/">
+        <Image className="ml-3" src="/Logo-Beauroi.png"  height={60} width={110} alt="Logo-Beauroi"/>
+      </Link>
+
+  </div>
+  <div className="nav-btn">
+    <label htmlFor="nav-check">
+      <span />
+      <span />
+      <span />
+    </label>
+  </div>
+
+  <div className="nav-links">
+    <a href="/" >
+      Home
+    </a>
+    <a href="/about" >
+      About
+    </a>
+    <a href="/services" >
+      Services
+    </a>
+    <a href="/use-cases" >
+      Use Cases
+    </a>
+    <a href="/contact" >
+      Contact Us
+    </a>
+
+
+  </div>
+</div>
+
+      </div>
     
   );
 };

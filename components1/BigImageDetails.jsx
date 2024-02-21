@@ -1,35 +1,80 @@
+// 	  import ReactPlayer from "react-player";
+
+// const BigImageDetails = ({dsrc}) => {
+// 	return (
+// 		<section className=" flex px-2 sm:px-36 justify-center bg-white py-36">
 
 
-const BigImageDetails = ({dsrc}) => {
-	return (
-		<section className=" flex px-44 justify-center bg-gray-100 py-52">
-		<div className=" container mx-auto ">
-			<div className="flex justify-between gap-20">
-				<div className="w-1/2">
-					<h2 className="text-blue-700 pb-1 text-xl font-extrabold">
-						we specialize in
-					</h2>
-					<h1 className="test-gray-900  leading-10 text-[2.1rem] font-bold">
+// 			<div className="pt-6 sm:pt-16 mx-auto flex justify-center">
+// 				         <div >
+
+// 				          <div className="aspect-video">
+					
+
+// <iframe className="h-full md:w-[680px]  lg:w-[1200px]  rounded-lg"   src=".././abt-vid.mp4" allow="autoPlay" />
+
+//   </div>
+
+//                        </div>
+// 			</div>
+			
+// 		</div>
+// 		</section>
+
+// 	)
+// }
+
+// export default BigImageDetails;
+"use client"
+import React, { useEffect, useRef } from "react";
+
+
+export default function App() {
+  const videoEl = useRef(null);
+
+  const attemptPlay = () => {
+    videoEl &&
+      videoEl.current &&
+      videoEl.current.play().catch(error => {
+        console.error("Error attempting to play", error);
+      });
+  };
+
+  useEffect(() => {
+    attemptPlay();
+  }, []);
+
+  return (
+    <div className="px-4 pb-20" >
+
+		<div className=" sm:mx-auto  ">
+			<div className="flex max-lg:flex-col pt-32 pb-20 justify-between sm:gap-20">
+				<div className="w-[100%] ">
+
+					<div className=" sm:text-[1.6rem] max-sm:mb-[-10px] text-[1.3rem] text-blue-500 text-center font-bold ">
+					"here's a glimps of our services"
+					</div>
+					<h1 className="test-gray-900   sm:leading-10  sm:text-[2.1rem] font-extrabold text-[1.8rem] text-center ">
 						Empower business to leverage multi-cloud.
 					</h1>
 					
-				</div>
-				<p className="text-xl pt-2 w-1/2">
-					Empower business to leverage multi-cloud. We believe that no two orgs are alike, and therefore, their cloud strategies should be just as unique.
-Empower business to leverage multi-cloud. 
-		
-				</p>
+				</div>	
 			</div>
-			<div className="pt-20 mx-auto flex justify-center">
-				         <div >
-            <img className=" rounded-3xl" src={`${dsrc}`}   />
-          </div>
-			</div>
-			
 		</div>
-		</section>
+					
 
-	)
+      <div>
+        <video
+          style={{ maxWidth: "100%", width: "1100px", margin: "0 auto" }}
+          playsInline
+          loop
+          muted
+          
+          alt="All the devices"
+          src=".././abt-vid.mp4"
+          ref={videoEl}
+        />
+      </div>
+    </div>
+  );
 }
-
-export default BigImageDetails

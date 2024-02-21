@@ -3,6 +3,7 @@
 const Hero = () => {
   return (
       <section className="container mx-auto">
+
       <div className=" ">
    
    

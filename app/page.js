@@ -1,27 +1,64 @@
+"use client"
 import Image from 'next/image'
+// import TestimonialCarousel from '@/components/TestimonialCarousel';
+// import TestimonialAnimation from '@/components/TestimonialAnimation';
 import Hero from '@/components/Hero';
-import BottomHero from '@/components/BottomHero';
-import Details from '@/components/Details';
-import Details2 from '@/components/Details2';
-import ServicesBreif from '@/components/ServicesBreif';
-import Features from '@/components/Features';
-import Clients2 from '@/components1/Clients2';
-export default function Home() {
-  return (
-          <>
-          
-        <Hero/>
-        <BottomHero  hei={" py-20"}/>
+import Services from '@/components/Services';
+import Newsletter from '@/components/Newsletter';
+import Form from '@/components/Form';
+import Map from '@/components/Map';
+import Tesstic from '@/components/testimonials';
+import BigImageDetails from '@/components1/BigImageDetails';
 
-            <Features/>
-        
-<Clients2/>
-        <ServicesBreif/>  <Details2/> <Details/>   
-             <BottomHero  hei={" py-60"}/><BottomHero color={"bg-cyan-900"} hei={" py-60"}/><Details2/>
-   <BottomHero color={"  bg-gradient-to-tl text-gray-800 from-indigo-200 via-gray-300 to-indigo-700"} hei={" py-60"}/>
-   
-                          
-                
-          </>
-  )
+import Script from 'next/script';
+
+import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
+export default function Home() {
+
+
+    return ( 
+        <>
+        <div>
+
+          <TawkMessengerReact
+            propertyId="658daa0270c9f2407f841867"
+            widgetId="1hiom06vn"/>
+          <Hero />
+          <Services/>
+          <hr/>
+          <Tesstic/>
+          <hr/>
+          <BigImageDetails/>
+          <br/>
+          <Newsletter/>
+          <Form/>
+
+
+
+
+
+
+{/*  */}
+{/* <TestimonialAnimation/> */}
+                {/* <div className="py-56 bg-blue-500 ">
+                    <p className="text-white text-center">testimonials</p>
+                </div> */}
+<br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div> 
+      </>
+    )
 }

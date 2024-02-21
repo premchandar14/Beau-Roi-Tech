@@ -7,6 +7,8 @@ const BottomHero = ({color, hei}) => {
         <div className={`py-10 ${color+hei} `}>
           <div className=" sm:w-3/4 max-sm:px-16 max-sm:py-16  mx-auto px-auto py-10">
             <h1 className="text-3xl text-center  ">
+            
+
               Our Excellent AI Solutions for Your Business
 
             </h1>
