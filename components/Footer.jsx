@@ -81,7 +81,7 @@ const Footer = () => {
     <hr className="my-6  sm:mx-auto border-gray-700 lg:my-8" />
     <div className="sm:flex sm:items-center sm:justify-between">
       <span className="text-sm  sm:text-center text-gray-400">
-        © 2023{" "}
+        © 2024{" "}
         <a href="https://beauroi.com/" className="hover:underline">
           beauroi™
         </a>
