@@ -47,8 +47,8 @@ const Header = () => {
             : "absolute bg-transparent"
         }`}
       >
-        <div className="container1  px-20">
-          <div className="relative -mx-4 flex items-center justify-between">
+        <div className="container1 px-8 sm:pt-2 sm:px-20">
+          <div className="relative  flex items-center justify-between">
             <div className="w-60 max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
@@ -67,7 +67,7 @@ const Header = () => {
               </Link>
             </div>
             
-            <div className="flex w-full items-center justify-between px-4">
+            <div className="flex w-full items-center justify-center px-4">
               <div>
                 <button
                   onClick={navbarToggleHandler}
@@ -99,7 +99,7 @@ const Header = () => {
                       : "invisible top-[100%] opacity-0"
                   }`}
                 >
-                  <ul className="block lg:flex lg:space-x-12">
+                  <ul className="block lg:flex lg:space-x-16">
                     {menuData.map((menuItem, index) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (
@@ -153,7 +153,7 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-              <div className="flex items-center justify-end pr-16 lg:pr-0">
+              {/* <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
                   href="/signin"
                   className="hidden px-7 py-3 text-gray-800 font-medium font-semibold hover:opacity-70"
@@ -176,7 +176,7 @@ const Header = () => {
                 <div>
                
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

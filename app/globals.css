@@ -5,6 +5,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 * {
   margin: 0;
   padding: 0;
@@ -842,12 +843,6 @@ buttonsi:focus{
 
 
 
-
-
-
-
- 
-
     .carousel { 
       
       perspective: 950px; 
@@ -861,6 +856,6 @@ buttonsi:focus{
   
     } 
 
-  
+  /* AUTHOR: SARAN VENKATESAN */
 
 

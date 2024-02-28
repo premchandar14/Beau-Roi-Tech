@@ -8,9 +8,7 @@ const Services = () => {
             <span className="block    font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-400 inline">Services
             </span> We Offer
         </h2>
-        <p className="sm:mb-20 mb-10  px-4 mx-auto pt-4 text-center  text-md text-gray-700">Comes directly from the desk of engineers, creators and managers at
-            Skcript.creators and managers at
-            Skcript.
+        <p className="sm:mb-20 mb-10  px-4 mx-auto pt-4 text-center  text-md text-gray-700">
         </p>
         <div className="grid grid-cols-1 gap-10 px-10 md:grid-cols-3 sm:grid-cols-2 lg:grid-cols-4 ">
             <a href="/services/augmental-ai" className="shadow-sm relative hover:-translate-y-5 hover:scale-101 duration-[1s] ">

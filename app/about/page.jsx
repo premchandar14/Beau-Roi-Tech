@@ -8,21 +8,20 @@ import Newsletter from '@/components/Newsletter';
 import BigImageDetails from '@/components/BigImageDetails';
 import Abt from '@/components/Abt';
 import Details from '@/components/Details';
-import Blog from '@/components1/Blog';
-import Blg from '@/components1/Blg';
+
 import Map from '@/components/Map';
 import Image from 'next/image'
 
 export default function Home() {
   return (
           <>
-            <div className=' overflow-hidden   bg-gradient-to-tl from-purple-900 to-blue-900 h-[220px] sm:h-[570px] w-full relative'>
-              <div className='py-14 bg-gray-100 opacity-50'>
+            <div className=' overflow-hidden   bg-gradient-to-tl from-purple-900 to-blue-900 h-[300px] sm:h-[500px] w-full relative'>
+              <div className='py-10 bg-gray-100 opacity-90'>
 
               </div>
               <div>
                 <img src="3r.png" className='w-full h-full object-cover absolute mix-blend-overlay'/>
-                <div className="flex justify-center max-sm:px-0 py-20 sm:py-64">
+                <div className="flex justify-center max-sm:px-0 py-20 sm:py-40">
                   <h1 className="text-white max-sm:text-3xl text-7xl font-semibold">
                     About Us
                   </h1>

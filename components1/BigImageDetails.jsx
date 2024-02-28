@@ -52,10 +52,10 @@ export default function App() {
 				<div className="w-[100%] ">
 
 					<div className=" sm:text-[1.6rem] max-sm:mb-[-10px] text-[1.3rem] text-blue-500 text-center font-bold ">
-					"here's a glimps of our services"
+					"Here's A Glimps Of Our Services"
 					</div>
 					<h1 className="test-gray-900   sm:leading-10  sm:text-[2.1rem] font-extrabold text-[1.8rem] text-center ">
-						Empower business to leverage multi-cloud.
+						Empower Business To Leverage Multi-Cloud.
 					</h1>
 					
 				</div>	

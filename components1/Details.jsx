@@ -7,7 +7,7 @@ const Details = ({dtxt,dtxtpara, dcolor, dfl, dbg, dsrc}) => {
         <div className={`${dbg} max-sm:border-b-[1px]  flex justify-between mx-auto px-2 xm:px-10 sm:px-24 py-8`} >
 
            
-     <section  className={`${dcolor}   py-2  rounded-3xl max-sm:flex-col flex ${dfl} gap-10 items-center justify-between  dark:bg-gray-900`}>
+     <section  className={`${dcolor}   py-2  rounded-3xl max-sm:flex-col flex ${dfl} gap-10 items-center justify-between `}>
           <div  className=" sm:w-1/2 ">
             <div className="py-5 flex flex-col items-center justify-center">
                        <div className='mt-1'>

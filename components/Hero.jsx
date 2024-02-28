@@ -6,11 +6,11 @@ const Hero = () => {
       
     <section className="bg-gradient-to-bl max-lg:pt-32 p-2 sm:p-16 from-blue-500 to-indigo-400 via-white">
     <div className="landing-page ">
-        <div className="my-5 hero-text sm:max-w-[540px] md:max-w-[740px] lg:max-w-[60%]">
-            <h1 className="text-[20px] sm:pl-20 sm:px-8  text-[48px] sm:text-[60px] text-gray-900 leading-[1.3] font-bold tracking-[-0.025em] mb-[16px] "> Step into success with <span className=" sm:text-[68px] text-gray-800 inline"> Beau Roi</span></h1>
-            <p className="sm:pl-20 sm:px-8  text-[18px] ">where innovation shapes your business future. Explore brilliance now!</p>
+        <div className="my-5 hero-text sm:max-w-[540px] md:max-w-[740px] lg:max-w-[55%]">
+            <h1 className="text-[20px] sm:pl-20 sm:px-8  text-[48px] sm:text-[68px] text-gray-900 leading-[1.3] font-bold tracking-[-0.025em] mb-[16px] pl-10  whitespace-break-spaces  ">Step Into <span className="whitespace-nowrap sm:text-[68px] text-gray-800 inline">Success With</span> <span className="whitespace-nowrap sm:text-[68px] text-gray-800 inline">Beau Roi</span></h1>
+            <p className="sm:pl-20 sm:px-8  text-[18px] ">Where Innovation Shapes Your Business Future. <br/>Explore Brilliance Now!</p>
         </div>
-        <div className="image-container flex justify-center">
+        <div className="image-container max-md:pt-29 flex justify-center">
             <img className="person-image w-[60%] sm:w-[46%] p-5 " src="https://cdn.pixabay.com/photo/2017/02/25/23/52/connections-2099068_1280.png" alt="cloud" />
 
             <img className="ball-image bright-ball" src=".././heroai.svg" alt="Ball" />

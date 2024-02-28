@@ -8,7 +8,7 @@ const BigImageDetails = ({dsrc}) => {
 			<div className=" max-sm:flex-col justify-between sm:gap-20">
 				<div className="flex justify-center ">
 					<h1 className="test-gray-900  sm:leading-10 pb-6 sm:text-[3.6rem] sm:pb-14 font-extrabold text-[2.8rem]  max-sm:text-center ">
-						Across the World
+						Across The World
 					</h1>
 					
 			</div>

@@ -6,7 +6,7 @@ const Form = () => {
 
 <div className=" py-8 sm:py-14  ">  
 <div className="pt-28 pb-20 flex justify-center  item-center"> <h3 className="mb-2 max-sm:text-center text-5xl font-semibold  text-gray-700">
-Request for Services
+Request For Services
 </h3></div>
 
 <div className="flex justify-center items-center  sm:mx-20  shadow-2xl shadow-gray-300  ">
@@ -17,7 +17,7 @@ Request for Services
 <img src="/24-7.jpg" className='w-full h-full object-cover absolute mix-blend-overlay'/>
 <div className="flex-col justify-center items-center max-sm:px-0 pt-[58vh] px-16">
 <h1 className="font-bold text-white py-4 uppercase text-4xl">
-Request for Services
+Request For Services
 </h1>
 <h1 className="text-gray-100 w-[90%] max-sm:text-lg  text-lg ">
 Eager to propel growth a purposful transformating. We have left an
@@ -34,7 +34,7 @@ with your belief.
 <p className=" mb-16  pt-3 leading-8 md:max-w-2xl text-md text-gray-700">
 <br />{" "}
 <span className="text-3xl sm:text-xl  lg:text-3xl">
-Care to share a glimps<br/>of your journey
+Care To Share A Glimps<br/>Of Your Journey
 </span>
 </p>
 <form action="https://api.web3forms.com/submit" method="POST">
