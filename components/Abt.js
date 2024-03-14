@@ -63,8 +63,8 @@ const Abt = () => {
       <div className="">
          <img
             className="  w-[70%] mx-auto object-cover rounded-xl"
-            src="https://beauroi.com/img/ceo-beauroi.jpeg"
-            alt=""
+            src="/Siva-G-Ganapathi.jpg"
+            alt="founder and ceo of beauroi"
           />
 
 
@@ -85,13 +85,6 @@ He founded SGS Global Consultancy UK Limited in May 2018 followed by Beau Roi an
 He is well known in the industry; having real-time capabilities shine in analyzing and designing solutions that align with customer specifications and business requirements, effectively meeting fluctuating demands and sustaining competitiveness. Leadership and technical acumen make him a valuable asset for any company looking to leverage cutting-edge technologies and data solutions to drive success and innovation in today's dynamic business landscape.             </p>
           </div>
         </div>
-
-    {/*  */}
-    {/*             <dl className="mt-10 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4"> */}
-    {/*       <div> */}
-    {/*         <dt className="text-sm font-semibold leading-6 text-gray-600"> */}
-    {/*           title */}
-    {/*         </dt> */}
 
 
 

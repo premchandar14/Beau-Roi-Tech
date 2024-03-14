@@ -89,7 +89,7 @@ const Services = () => {
                     <img src=".././time-materials.jpg" className="w-full z-0  h-full    object-fill example "/>
                 </div>
             </a>
-            <a href="/services/training-and-recruitment" className="shadow-sm relative hover:-translate-y-5 hover:scale-101 duration-[1s] ">
+            <a href="/services/24-7" className="shadow-sm relative hover:-translate-y-5 hover:scale-101 duration-[1s] ">
                 <div className="  h-full relative shadow-sm rounded-xl  overflow-hidden group ">
                     <div className=" absolute -bottom-10 top-14 group-hover:top-0 left-0 w-full h-full group-hover:bg-black/60 transition-all ease-in-out duration-500  ">
                         <div className="w-full h-full   p-5   relative">
@@ -102,7 +102,7 @@ const Services = () => {
                     <img src=".././24--7service.jpg" className="w-full z-0  h-full    object-fill example "/>
                 </div>
             </a>
-            <a href="/services/24-7" className="shadow-sm relative hover:-translate-y-5 hover:scale-101 duration-[1s] ">
+            <a href="/services/training-and-recruitment" className="shadow-sm relative hover:-translate-y-5 hover:scale-101 duration-[1s] ">
                 <div className="  h-full relative shadow-sm rounded-xl  overflow-hidden group ">
                     <div className=" absolute -bottom-10 top-14 group-hover:top-0 left-0 w-full h-full group-hover:bg-black/60 transition-all ease-in-out duration-500  ">
                         <div className="w-full h-full   p-5   relative">

@@ -14,14 +14,18 @@ const Details2 = ({sername,serdes,sern,serimg}) => {
               {sern}
             </div>
          <div className="max-sm:flex max-sm:flex-col-reverse sm:flex max-sm:pt-16  items-center  justify-between">
-          <div className="mt-6 sm:mr-6">
+          <div className=" sm:mr-6">
          {/* <div className=" sm:text-[1.1rem] max-sm:text-center text-blue-500  font-bold ">
                    "we specialize in"
                 </div> */}
 
                        
-            <p className="text-xl max-xs:text-sm max-sm:text-md max-sm:text-center xs:max-w-lg sm:max-w-xl md:max-w-3xl lg:max-w-6xl font-semibold text-gray-700 mb-4 leading-8  mt-5">
+            <p className="text-xl max-xs:text-sm max-sm:text-md max-sm:text-center xs:max-w-lg sm:max-w-xl md:max-w-3xl lg:max-w-6xl font-semibold text-gray-700 mb-4 leading-8  mt-[-80px]">
                {serdes}</p>
+               <div className='mt-8 flex max-sm:justify-center  mx-auto'>
+               <Link href="/service-form"> <button  className="px-8 mr-4 hover:text-black  py-4 text-gray-500 font-semibold border border-gray-800 hover:bg-blue-400 rounded-md transition duration-300 border-gray">
+                  Explore More
+                </button> </Link> </div>
 
   
           </div>
@@ -34,10 +38,7 @@ const Details2 = ({sername,serdes,sern,serimg}) => {
 
         </div>  
         
-        <div className='mt-2 flex max-sm:justify-center  mx-auto'>
-               <Link href="/service-form"> <button  className="px-8 mr-4 hover:text-black  py-4 text-gray-500 font-semibold border border-gray-800 hover:bg-blue-400 rounded-md transition duration-300 border-gray">
-                  explore more
-                </button> </Link> </div>
+
 
       </div>
         </div>

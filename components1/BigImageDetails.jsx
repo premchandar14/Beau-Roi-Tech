@@ -1,30 +1,4 @@
-// 	  import ReactPlayer from "react-player";
 
-// const BigImageDetails = ({dsrc}) => {
-// 	return (
-// 		<section className=" flex px-2 sm:px-36 justify-center bg-white py-36">
-
-
-// 			<div className="pt-6 sm:pt-16 mx-auto flex justify-center">
-// 				         <div >
-
-// 				          <div className="aspect-video">
-					
-
-// <iframe className="h-full md:w-[680px]  lg:w-[1200px]  rounded-lg"   src=".././abt-vid.mp4" allow="autoPlay" />
-
-//   </div>
-
-//                        </div>
-// 			</div>
-			
-// 		</div>
-// 		</section>
-
-// 	)
-// }
-
-// export default BigImageDetails;
 "use client"
 import React, { useEffect, useRef } from "react";
 

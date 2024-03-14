@@ -8,9 +8,7 @@ import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 export default function Home() {
   return (
           <>
-         {/* <div className="sm:text-[3rem] max-sm:py-20 pt-32 py-10 px-10 bg-gradient-to-br from-blue-900 to-indigo-900 via-sky-100 text-white text-[1.4rem] max-sm font-bold"> */}
-         {/*      Contact Us */}
-         {/*    </div> */}
+
          
          <TawkMessengerReact
             propertyId="658daa0270c9f2407f841867"

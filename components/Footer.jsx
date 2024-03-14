@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="mb-6 md:mb-0">
         <a href="https://beauroi.com/" className="flex items-center">
           <img
-            src="https://beauroi.com/img/Logo-Beauroi.png"
+            src="/Logo-Beauroi.png"
             className="h-8 me-3"
             alt="Logo"
           />
@@ -17,62 +17,115 @@ const Footer = () => {
           </span>
         </a>
       </div>
-      <div className="grid xs:grid-cols-3 grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-        
+      <div className="grid xs:grid-cols-3 grid-cols-2 gap-8 sm:gap-16 sm:grid-cols-3">
+      <div>
+          <h2 className="mb-2 text-sm font-semibold  uppercase text-white">
+            Our Services
+          </h2>
+          <ul className="text-gray-400 font-medium">
+            <li className="mb-1 text-[12px]">
+              <a
+                href="/services/augmental-ai"
+                className="hover:underline "
+              >
+                Augmental AI
+              </a>
+            </li>
+            <li className="mb-1 text-[12px]">
+              <a
+                href="/services/multicloud-computing"
+                className="hover:underline"
+              >
+               Multicloud Computing
+              </a>
+            </li>
+            <li className="mb-1 text-[12px]">
+              <a
+                href="/services/application-development"
+                className="hover:underline "
+              >
+                Application Development
+              </a>
+            </li>
+            <li className="mb-1 text-[12px]">
+              <a
+                href="/services/data-and-analytics"
+                className="hover:underline"
+              >
+               Data And Analytics
+              </a>
+            </li>
+            <li className="mb-1 text-[12px]">
+              <a
+                href="/services/strategic-it-consultation"
+                className="hover:underline "
+              >
+                Strategic IT Consultation
+              </a>
+            </li>
+            <li className="mb-1 text-[12px]">
+              <a
+                href="/services/time-and-material"
+                className="hover:underline"
+              >
+               Time And Material
+              </a>
+            </li>
+            <li className="mb-1 text-[12px]">
+              <a
+                href="/services/training-and-recruitment"
+                className="hover:underline "
+              >
+                Training And Recruitment
+              </a>
+            </li>
+            <li className="mb-1 text-[12px]">
+              <a
+                href="/services/24-7"
+                className="hover:underline"
+              >
+               24/7 
+              </a>
+            </li>
+          </ul>
+        </div>        
         <div>
-          <h2 className="mb-6 text-sm font-semibold  uppercase text-white">
+          <h2 className="mb-2 text-sm font-semibold  uppercase text-white">
             Resources
           </h2>
           <ul className="text-gray-400 font-medium">
-            <li className="mb-4">
-              <a href="#" className="hover:underline">
-                services
+            <li className="mb-1 text-[12px]">
+              <a href="/about" className="hover:underline">
+                About
               </a>
             </li>
-            <li>
-              <a href="/about" className="decoration-black hover:underline">
-                about
+            <li className="mb-1 text-[12px]">
+              <a href="/use-cases" className="decoration-black hover:underline">
+                Use Cases
               </a>
             </li>
-          </ul>
-        </div>
-        <div>
-          <h2 className="mb-6 text-sm font-semibold  uppercase text-white">
-            Follow us
-          </h2>
-          <ul className="text-gray-400 font-medium">
-            <li className="mb-4">
-              <a
-                href="#"
-                className="hover:underline "
-              >
-                Github
-              </a>
-            </li>
-            <li>
-              <a
-                href="/services"
-                className="hover:underline"
-              >
-                Discord
+            <li className="mb-1 text-[12px]">
+              <a href="/services" className="decoration-black hover:underline">
+                Services
               </a>
             </li>
           </ul>
         </div>
+
         <div>
-          <h2 className="mb-6 text-sm font-semibold  uppercase text-white">
+          <h2 className="mb-2 text-sm font-semibold  uppercase text-white">
             Legal
           </h2>
           <ul className="text-gray-400 font-medium">
-            <li className="mb-4">
-              <a href="#" className="hover:underline">
+            <li className="mb-1 text-[12px]">
+              <p href="" className="hover:underline">
                 Privacy Policy
-              </a>
+              </p>
             </li>
-            <li>
-              <a href="#" className="hover:underline">
+            <li className="mb-1 text-[12px]">
+              <p href="" className="hover:underline">
                 Terms &amp; Conditions
-              </a>
+              </p>
             </li>
           </ul>
         </div>
@@ -81,7 +134,7 @@ const Footer = () => {
     <hr className="my-6  sm:mx-auto border-gray-700 lg:my-8" />
     <div className="sm:flex sm:items-center sm:justify-between">
       <span className="text-sm  sm:text-center text-gray-400">
-        © 2023{" "}
+        © 2024{" "}
         <a href="https://beauroi.com/" className="hover:underline">
           beauroi™
         </a>

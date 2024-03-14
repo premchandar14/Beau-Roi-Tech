@@ -41,7 +41,8 @@ Care To Share A Glimps<br/>Of Your Journey
 <input
 type="hidden"
 name="access_key"
-defaultValue="103d9f61-759f-4ac3-9b7a-0377c9d138c4"
+// value="103d9f61-759f-4ac3-9b7a-0377c9d138c4"
+value="f3745c6d-5003-4bba-891f-e738d122b42a"
 />
 <div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
 <input
@@ -86,17 +87,13 @@ defaultValue={""}
 />
 </div>
 <div className="my-2 mt-[-20px] ">
-{/* <button */}
-{/*   className="uppercase text-xl font-semibold tracking-wide bg-gradient-to-tl from-green-200 to-blue-900 text-white p-3 rounded-md w-full  */}
-{/*     focus:outline-none focus:shadow-outline" */}
-{/* > */}
-{/*   Send */}
-{/* </button> */}
+
 <div className="bdy ">
-<a className="arrr" href="" >
+
+<button className="arrr" type="submit">
 <span className="text-sm flex item-center">Send</span>
 <div className="liquid"></div>
-</a></div>
+</button> </div>
 </div>
 </form>
         <Script src="https://web3forms.com/client/script.js" async defer></Script>

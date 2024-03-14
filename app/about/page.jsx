@@ -5,7 +5,7 @@ import Details1 from '@/components1/Details';
 import BigPic from '@/components1/BigPic';
 import CTA from '@/components1/CTA';
 import Newsletter from '@/components/Newsletter';
-import BigImageDetails from '@/components/BigImageDetails';
+import BigImageDetails from '@/components1/BigImageDetails2';
 import Abt from '@/components/Abt';
 import Details from '@/components/Details';
 
@@ -29,12 +29,12 @@ export default function Home() {
               </div>
             </div>
             <Details1 dcolor={"text-gray-900"} dfl={"flex-row-reverse"} dbg={" py-20"}
-             dsrc={"https://images.pexels.com/photos/7688455/pexels-photo-7688455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}  
+             dsrc={"/vision.jpeg"}  
              dtxt={"Our Vision"}
             dtxtpara={"Empower business to leverage the full potential of multi-cloud environments. We believe that no two organisations are alike, and therefore, their cloud strategies should be just as unique."}
              />
             <Details1 dcolor={"text-gray-900"}  dbg={" py-10 pb-20"}  
-            dsrc={"https://images.pexels.com/photos/3184436/pexels-photo-3184436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}  
+            dsrc={"/mission.jpeg"}  
             dtxt={"Our Mission"}
             dtxtpara={"To be your guiding light, simplify the complexities of multi cloud environments and empower your organisation to harness their full potential."}/>
 

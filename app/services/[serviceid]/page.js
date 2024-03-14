@@ -1,4 +1,4 @@
-// import { useRouter } from 'next/router';
+
 import Details2 from '@/components/Details2';
 
 const sampleServices = [
@@ -10,11 +10,9 @@ const sampleServices = [
   { id: 6,img:".././time-materials.jpg",n: 'Time And Material', name: 'Time-and-Material',name2:"Time & Material", description:`Our Time & Material services truly embody dependability and quantifiable achievements.
 Staff augmentation delivers not only a prompt resolution but also the added advantage of swift integration. Augmented staff consists of seasoned experts who effortlessly assimilate into your company's culture and workflow. This effectively reduces disturbances typically encountered in traditional recruitment procedures.
 `},
-  { id: 7,img:".././trainings.jpg", name: 'Training-and-Recruitment',name2:"Training & Recruitment", description:"Our industry-ready tech talents are a finely-tuned addition to your team. They seamlessly integrate into your projects, ensuring your ability to tackle challenges, meet deadlines, and drive innovation without missing a beat. Your success is our foremost priority, delivered through these accomplished professionals." },
-  { id: 8,img:".././24--7service.jpg", name: '24-7',name2:"24/7", description: "Transcending Your Preconceptions Opting for our assistance services entails selecting unparalleled dependability, expertise, and unwavering commitment to your triumph. We don't merely provide services; we empower you to attain your aspirations. Consider us as your steadfast companion on your expedition; we stand beside you incessantly." },
+  { id: 7,img:".././trainings.jpg",n:'Training And Recruitment', name: 'Training-and-Recruitment',name2:"Training & Recruitment", description:"Our industry-ready tech talents are a finely-tuned addition to your team. They seamlessly integrate into your projects, ensuring your ability to tackle challenges, meet deadlines, and drive innovation without missing a beat. Your success is our foremost priority, delivered through these accomplished professionals." },
+  { id: 8,img:".././24--7service.jpg",n:"24/7", name: '24-7',name2:"24/7", description: "Transcending Your Preconceptions Opting for our assistance services entails selecting unparalleled dependability, expertise, and unwavering commitment to your triumph. We don't merely provide services; we empower you to attain your aspirations. Consider us as your steadfast companion on your expedition; we stand beside you incessantly." },
 
-
-  // ... more services
 ];
 
 export function generateStaticParams() {
@@ -28,18 +26,14 @@ return [
   { serviceid: "training-and-recruitment"},
   {serviceid: "24-7"},
 
-  // ... more services
 ]
 
 }
 
-// 
-// export async function getStaticPaths() {
-//   return await generateStaticParams();
-// }
+
 
 export default function servicedetailed({params}) {
-  // const router = useRouter();
+ 
   const { serviceid } = params;
 
   const servicer = sampleServices.find((service) => service.name.toLowerCase() === params.serviceid); 
@@ -61,7 +55,6 @@ export default function servicedetailed({params}) {
               </div>
             </div>
 
-{/*  */}
             <div>
               
             </div>

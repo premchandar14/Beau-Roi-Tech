@@ -8,26 +8,11 @@ import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 export default function Home() {
   return (
           <>
-         {/* <div className="sm:text-[3rem] max-sm:py-20 pt-32 py-10 px-10 bg-gradient-to-br from-blue-900 to-indigo-900 via-sky-100 text-white text-[1.4rem] max-sm font-bold"> */}
-         {/*      Contact Us */}
-         {/*    </div> */}
-         
+
          <TawkMessengerReact
             propertyId="658daa0270c9f2407f841867"
             widgetId="1hiom06vn"/>
-            {/* <div className=' overflow-hidden   bg-gradient-to-tl from-purple-900 to-blue-900 h-[300px] sm:h-[500px] w-full relative'>
-              <div className='py-10 bg-gray-100 opacity-90'>
 
-              </div>
-              <div>
-                <img src="3r.png" className='w-full h-full object-cover absolute mix-blend-overlay'/>
-                <div className="flex justify-center max-sm:px-0 py-20 sm:py-40">
-                  <h1 className="text-white max-sm:text-3xl text-7xl font-semibold">
-                    Contact Us
-                  </h1>
-                </div>
-              </div>
-            </div> */}
       
 <Form/>
 

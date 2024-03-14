@@ -23,22 +23,27 @@ Gear Up To Embark On A Journey Towards A Greatest Feature
 </p>
 </div>
 <div className="w-full px-1 flex-0 md:w-auto lg:w-1/2">
-<form noValidate="">
-<input type="hidden" name="tags" defaultValue="earlyaccess" />
+<form action="https://api.web3forms.com/submit" method="POST">
+<input
+type="hidden"
+name="access_key"
+// value="103d9f61-759f-4ac3-9b7a-0377c9d138c4"
+value="f3745c6d-5003-4bba-891f-e738d122b42a"
+/>
 <div className="flex flex-col sm:flex-row">
 <input
 type="email"
 id="email"
 name="email"
 placeholder="Enter your email address"
-className="flex-1 px-3 py-2 placeholder-black border border-gray-400 rounded-md sm:mr-5 focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
+className="flex-1 px-3 py-2  border border-gray-400 rounded-md sm:mr-5 focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
 />
 <button
 type="submit"
 className="sm:ml-4 w-full px-6 py-4 mt-5 text-white bg-gray-900 rounded-md sm:mt-0 sm:w-auto whitespace-nowrap "
 >
 
-Les's Connect
+Lets's Connect
 </button>
 
 </div>
