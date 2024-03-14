@@ -11,13 +11,13 @@ const BigImageDetails = ({dsrc}) => {
 						Across The World
 					</h1>
 					
-			</div>
+				</div>
 		
 			<div className="sm:flex max-sm:flex-col sm:justify-between">
 			<h1 className="max-sm:mt-[-10px] text-gray-900 text-[20px] sm:text-[1.6rem]  max-sm:text-center  sm:leading-10  font-bold">
 						 Up & Running:<br/><span className="text-red-500 pb-1 text-md sm:text-xl font-bold"> India, United Kingdom</span><br/><br/></h1>
 	        <h1 className="max-sm:mt-[-10px]  text-gray-900  text-[20px] sm:text-[1.6rem]  max-sm:text-center  sm:leading-10  font-bold">In Progress:<br/><span className="text-green-600 pb-1 text-md sm:text-xl font-bold"> Australia, Canada, Netherlands, UAE </span></h1>
-				</div>	
+			</div>	
 		</div>
 
 		<div className="mt-[-30px] max-sm:mt-[8px]  flex justify-center">
