@@ -12,7 +12,6 @@
     "@tawk.to/tawk-messenger-react": "^2.0.2",
     "framer-motion": "^10.18.0",
     "jquery": "^3.7.1",
-    "materialize-css": "^1.0.0",
     "next": "^14.1.0",
     "react": "^18",
     "react-bootstrap": "^2.9.2",

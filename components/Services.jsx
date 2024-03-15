@@ -17,7 +17,7 @@ const Services = () => {
                         <div className="w-full h-full   p-5   relative">
                             <div className="absolute bottom-0 group-hover:bottom-24 text-white  text-left   transition-all ease-in-out duration-500 ">
                                 <h2 className="text-2xl font-bold  text-white mb-6 pb-4">Discover<br/>Augmental AI</h2>
-                                <p className="text-lg font-light text-white ">Shaping a Limitless<br/>Tomorrow </p>
+                                <p className="text-sm font-light text-white ">Shaping a Limitless<br/>Tomorrow </p>
                             </div>
                         </div>
                     </div>
@@ -30,7 +30,7 @@ const Services = () => {
                         <div className="w-full h-full   p-5   relative">
                             <div className="absolute bottom-0 group-hover:bottom-24 text-white  text-left   transition-all ease-in-out duration-500 ">
                                 <h2 className="text-2xl font-bold  text-white mb-6 pb-4">MultiCloud <br/>Computing</h2>
-                                <p className="text-lg font-light text-white">Simplifying Complexities,<br/>Maximizing Value</p>
+                                <p className="text-sm font-light text-white">Simplifying Complexities,<br/>Maximizing Value</p>
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ const Services = () => {
                         <div className="w-full h-full   p-5   relative">
                             <div className="absolute bottom-0 group-hover:bottom-24 text-white  text-left   transition-all ease-in-out duration-500 ">
                                 <h2 className="text-2xl font-bold  text-white mb-6 pb-4">Application<br/>Development</h2>
-                                <p className="text-lg font-light text-white">Tailored Solutions for<br/>Your Unique Needs</p>
+                                <p className="text-sm font-light text-white">Tailored Solutions for<br/>Your Unique Needs</p>
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ const Services = () => {
                         <div className="w-full h-full   p-5   relative">
                             <div className="absolute bottom-0 group-hover:bottom-24 text-white  text-left   transition-all ease-in-out duration-500 ">
                                 <h2 className="text-2xl font-bold  text-white mb-6 pb-4">Data &<br/>Analytics</h2>
-                                <p className="text-lg font-light text-white"> Unleash Your Business's<br/>Untapped Potential</p>
+                                <p className="text-sm font-light text-white"> Unleash Your Business's<br/>Untapped Potential</p>
                             </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ const Services = () => {
                         <div className="w-full h-full   p-5   relative">
                             <div className="absolute bottom-0 group-hover:bottom-24 text-white  text-left   transition-all ease-in-out duration-500 ">
                                 <h2 className="text-2xl font-bold  text-white mb-6 pb-4">Strategic IT<br/>Consultation</h2>
-                                <p className="text-lg font-light text-white">Your Pathway to Success<br/>in the Digital Era</p>
+                                <p className="text-sm font-light text-white">Your Pathway to Success<br/>in the Digital Era</p>
                             </div>
                         </div>
                     </div>
@@ -82,7 +82,7 @@ const Services = () => {
                         <div className="w-full h-full   p-5   relative">
                             <div className="absolute bottom-0 group-hover:bottom-24 text-white  text-left   transition-all ease-in-out duration-500 ">
                                 <h2 className="text-2xl font-bold  text-white mb-6 pb-4">Time &<br/>Material</h2>
-                                <p className="text-lg font-light text-white">Measurable Results,<br/>Consistently Delivered</p>
+                                <p className="text-sm font-light text-white">Measurable Results,<br/>Consistently Delivered</p>
                             </div>
                         </div>
                     </div>
@@ -94,8 +94,8 @@ const Services = () => {
                     <div className=" absolute -bottom-10 top-14 group-hover:top-0 left-0 w-full h-full group-hover:bg-black/60 transition-all ease-in-out duration-500  ">
                         <div className="w-full h-full   p-5   relative">
                             <div className="absolute bottom-0 group-hover:bottom-24 text-white  text-left   transition-all ease-in-out duration-500 ">
-                                <h2 className="text-2xl font-bold  text-white mb-6 pb-4">24/7<br/></h2>
-                                <p className="text-lg font-light text-white">Support That Exceeds<br/>Your Imagination</p>
+                                <h2 className="text-2xl font-bold  text-white mb-6 pb-4">24/7</h2>
+                                <p className="text-sm font-light  text-white">Support That Exceeds<br/>Your Imagination</p>
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@ const Services = () => {
                         <div className="w-full h-full   p-5   relative">
                             <div className="absolute bottom-0 group-hover:bottom-24 text-white  text-left   transition-all ease-in-out duration-500 ">
                                 <h2 className="text-2xl font-bold  text-white stroke-2 stroke-black mb-6 pb-4">Training &<br/>Recruitment</h2>
-                                <p className="text-lg font-light text-white">Crafting<br/>Industry-Ready Talent</p>
+                                <p className="text-sm font-light text-white">Crafting<br/>Industry-Ready Talent</p>
                             </div>
                         </div>
                     </div>
